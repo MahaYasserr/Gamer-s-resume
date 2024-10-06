@@ -55,7 +55,7 @@ body {
 }
 
 .verticalText{
-  -webkit-text-stroke: 1px red;
+  -webkit-text-stroke: 2px red;
 }
 
 
@@ -86,14 +86,12 @@ body {
 .shadow1 {
   position: relative;
   text-align: center;
-}
-
-.shadow1 span {
-  -webkit-text-stroke: 1px rgb(255, 0, 0);
+  -webkit-text-stroke: 2px rgb(255, 0, 0);
   position: relative;
   color: #fff;
 }
 
+/* 
 
 .item1::before {
   content: "1." ;
@@ -248,4 +246,4 @@ body {
   -webkit-text-stroke: 1px rgba(255, 0, 0, 0.608); 
   color: transparent;
   z-index: -1; 
-}
+} */
